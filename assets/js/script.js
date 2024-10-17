@@ -144,10 +144,3 @@ function displayDivisionQuestion(operand1, operand2) {
     document.getElementById('operand2').textContent = operand2;
     document.getElementById('operator').textContent = "/";
 }
-
-/**
- * Add gameType check to runGame()
- * Create the display function / 
- * Modify the calculateCorrectAnswer function / 
- * We want the answer to be an integar a whole number -> one way to do this is to multiply our two operands together to form one side of the equation 
- */
